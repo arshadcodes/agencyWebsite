@@ -20,11 +20,14 @@ const Modal = ({ setIsOpen }) => {
             Enter your email address
           </div>
           <div className="flex flex-row items-center justify-center">
-            <input type="text" className="w-[90%] border-black-1 p-2 rounded-md bg-slate-300 text-black" onChange={(e)=>{setEmail(e.currentTarget.innerText)}}/>
+            <input type="text" className="w-[90%] border-black-1 p-2 rounded-md bg-white text-black" onChange={(e)=>{setEmail(e.currentTarget.innerText)}}/>
           </div>
           <div className={styles.modalActions}>
             <div className={styles.actionsContainer}>
-              <button className={styles.deleteBtn} onClick={() => setIsOpen(false)}>
+              <button className={styles.deleteBtn} onClick={() => {
+                //send email logic
+                setIsOpen(false)
+                }}>
                 Send
               </button>
               <button

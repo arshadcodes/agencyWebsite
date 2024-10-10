@@ -18,9 +18,9 @@
   }
   
   .modal {
-    width: 340px;
-    height: 280px;
-    background: white;
+    width: 380px;
+    height: 250px;
+    background: #d7d0d0;
     color: white;
     z-index: 10;
     border-radius: 16px;
@@ -29,7 +29,7 @@
   
   .modalHeader {
     height: 50px;
-    background: white;
+    background: #d7d0d0;
     overflow: hidden;
     border-top-left-radius: 16px;
     border-top-right-radius: 16px;
@@ -92,12 +92,12 @@
     margin-top: 10px;
     cursor: pointer;
     font-weight: 500;
-    padding: 11px 28px;
+    padding: 8px 32px;
     border-radius: 12px;
-    font-size: 0.8rem;
+    font-size: 20px;
     border: none;
     color: #fff;
-    background: #ff3e4e;
+    background: #070027;
     transition: all 0.25s ease;
   }
   
@@ -111,9 +111,9 @@
     margin-top: 10px;
     cursor: pointer;
     font-weight: 500;
-    padding: 11px 28px;
+    padding: 8px 32px;
     border-radius: 12px;
-    font-size: 0.8rem;
+    font-size: 20px;
     border: none;
     color: #2c3e50;
     background: #fcfcfc;
