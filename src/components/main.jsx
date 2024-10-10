@@ -10,7 +10,6 @@ const Main = () => {
                     Building the future of your brand <br />
                     From development to deployment, we turn your ideas into reality, guaranteed
                 </div>
-                <Button className="dark:bg-gray-800" text="Book a call" onClick={() => { }} />
             </div>
 
 
